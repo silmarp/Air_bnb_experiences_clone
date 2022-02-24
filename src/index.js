@@ -2,13 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './Navbar'
-import Hero from './Hero'
+import Navbar from './Components/Navbar'
+import Hero from './Components/Hero'
+import CardRow from './Components/CardRow'
+
 
 ReactDOM.render(
-  <React.StrictMode>
+   <React.StrictMode>
     <Navbar />
     <Hero />
+    <CardRow />
+
+
+
+    
 
   </React.StrictMode>,
   document.getElementById('root')

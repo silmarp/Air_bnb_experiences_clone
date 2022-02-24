@@ -1,12 +1,12 @@
-import i00 from './Static/i00.jpg'
-import i11 from './Static/i11.jpg'
-import i22 from './Static/i22.jpg'
-import i33 from './Static/i33.jpg'
-import i44 from './Static/i44.jpg'
-import i55 from './Static/i55.jpg'
-import i66 from './Static/i66.jpg'
-import i77 from './Static/i77.jpg'
-import i88 from './Static/i88.jpg'
+import i00 from '../Static/i00.jpg'
+import i11 from '../Static/i11.jpg'
+import i22 from '../Static/i22.jpg'
+import i33 from '../Static/i33.jpg'
+import i44 from '../Static/i44.jpg'
+import i55 from '../Static/i55.jpg'
+import i66 from '../Static/i66.jpg'
+import i77 from '../Static/i77.jpg'
+import i88 from '../Static/i88.jpg'
 
 export default function Hero(){
     return(

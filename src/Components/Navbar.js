@@ -1,4 +1,4 @@
-import airbnb from './Static/airbnb.svg'
+import airbnb from '../Static/airbnb.svg'
 
 export default function Navbar() {
     return(
