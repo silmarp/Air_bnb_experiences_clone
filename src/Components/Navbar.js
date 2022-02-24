@@ -6,8 +6,11 @@ export default function Navbar() {
                         outline outline-gray-300 outline-1 
                         px-2 py-2
                         drop-shadow-lg
+                        fixed
+                        w-full
+                        bg-white
         '>
-            <img src={airbnb} className='logo basis-1' ></img>
+            <img src={airbnb} className='logo' ></img>
         </nav>
     )
 

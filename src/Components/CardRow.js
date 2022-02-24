@@ -7,25 +7,26 @@ export default function CardRow(){
     const cards = Data_object.map(
         experience => {
             return (
-            <Card 
-                id          = {experience.id}
-                title       = {experience.title}
-                info        = {experience.description}
-                price       = {experience.price}
-                img         = {experience.coverImg}
-                rating      = {experience.stats.rating}
-                reviewCount = {experience.stats.reviewCount}
-                location    = {experience.location}
-                openSpots   = {experience.openSpots}
-            />
+            <div className=''>
+                <Card 
+                    id          = {experience.id}
+                    title       = {experience.title}
+                    info        = {experience.description}
+                    price       = {experience.price}
+                    img         = {experience.coverImg}
+                    rating      = {experience.stats.rating}
+                    reviewCount = {experience.stats.reviewCount}
+                    location    = {experience.location}
+                    openSpots   = {experience.openSpots}
+                    />
+            </div>
             )        
         }
     );
 
     return (
-        <div>
+        <div className='flex flex-row mx-auto max-w-4xl overflow-x-auto '>
             {cards}
-            
         </div>
     )
 }

@@ -10,7 +10,7 @@ import i88 from '../Static/i88.jpg'
 
 export default function Hero(){
     return(
-        <div className="flex flex-col px-6 py-3 items-center">
+        <div className="flex flex-col px-6 py-12 items-center">
             <div className="flex flex-row items-center
                             gap-3
                             px-12 py-6
